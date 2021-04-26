@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Montserrat&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+    background:#FAFFFB;
+}
+
+h1, h2, h3{
+  font-family: 'Arimo', sans-serif;
 }
 
 a {
@@ -13,4 +18,78 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+
+
+.portfolio-item{
+  aspect-ratio: 1/1;
+  min-height: 100px;
+  min-width: 100px;
+  border:1px solid #CFE5D5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:black;
+}
+
+.portfolio-item > h2{
+  font-size:30px;
+}
+.portfolio-item > h3{
+  font-size:20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.portfolio-item:hover{
+  background: url('/images/favicon.png') ;
+  color:white;
+  cursor: ne-resize;
+}
+
+.concepts{
+min-height:100px;
+padding:50px 5%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.concepts > h2{
+  font-size:50px;
+  color:black;
+}
+
+.commercial{
+  min-height:100px;
+  padding:50px 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  }
+  
+  .commercial > h2{
+    font-size:50px;
+    color:black;
+  }
+  
+
+
+.intro{
+  padding: 100px 5%;
+}
+
+.intro > p{
+  margin-bottom: 30px;
+}
+
+.pete{
+  object-fit: cover;
+  height:100vh;
+  width:100%;
+}
+.name{
+  padding-left:20px;
 }
