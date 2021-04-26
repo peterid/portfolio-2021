@@ -10,8 +10,9 @@ export default function Home() {
         <title>Pete Ridley - Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Menu />
-      <Main />
+      <p> Hello World </p>
+      {/* <Menu />
+      <Main /> */}
     </div>
   )
 }
